@@ -82,13 +82,20 @@
               </div>
               <div class="form-group">
                 <label for="comment">Коментар</label>
-                <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  rows="10"
+                  placeholder="Введіть текст"
+                ></textarea>
               </div>
-              <input type="checkbox" name="license" id="license" />
-              <label for="license"
-                >Погоджуюся з розсилкою та приймаю Умови договору</label
-              >
-              <button type="submit">Відправити</button>
+              <div class="form-group">
+                <input type="checkbox" name="license" id="license" class="input-license" />
+                <label for="license" class="label-license"
+                  >Погоджуюся з розсилкою та приймаю Умови договору</label
+                >
+              </div>
+              <button type="submit" class="form-btn">Відправити</button>
             </form>
           </div>
         </div>
