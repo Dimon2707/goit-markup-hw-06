@@ -313,6 +313,27 @@ img {
     margin-right: 8px;
 }
 
+.form {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-right: auto;
+}
+
+.form-group textarea {
+    padding: 12px  16px;
+}
+
 /* section-feature */
 .feature {
     padding-bottom: 0;

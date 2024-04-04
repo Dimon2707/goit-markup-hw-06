@@ -60,24 +60,36 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
+        <button type="button" class="hero-btn" data-modal-open>
+          Замовити послугу
+        </button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button type="button" class="modal-btn" data-modal-close>
-            </button>
-            <form>
-              <label for="name">Ім'я</label>
-              <input type="text" name="name" id="name">
-
-              <label for="tel">Телефон</label>
-              <input type="tel" name="tel" id="tel">
-
-              <label for="mail">Пошта</label>
-              <input type="email" name="mail" id="mail">
-
-              <label for="">Коментар</label>
+            <button type="button" class="modal-btn" data-modal-close></button>
+            <form class="form">
+              <h4 class="form-title">Залиште свої дані, ми вам передзвонимо</h4>
+              <div class="form-group">
+                <label for="name">Ім'я</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="form-group">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel" />
+              </div>
+              <div class="form-group">
+                <label for="mail">Пошта</label>
+                <input type="email" name="mail" id="mail" />
+              </div>
+              <div class="form-group">
+                <label for="comment">Коментар</label>
+                <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
+              </div>
+              <input type="checkbox" name="license" id="license" />
+              <label for="license"
+                >Погоджуюся з розсилкою та приймаю Умови договору</label
+              >
+              <button type="submit">Відправити</button>
             </form>
-
           </div>
         </div>
       </section>
@@ -141,34 +153,34 @@
           <h2 class="direction-title">Чим ми займаємося</h2>
           <ul class="direction-list">
             <li class="item">
-                <img
-                  class="direction-img"
-                  src="./images/img-1.jpg"
-                  alt="coding"
-                  width="370"
-                  height="294"
-                />
-                  <p class="direction-descr">Десктопні додатки</p>
+              <img
+                class="direction-img"
+                src="./images/img-1.jpg"
+                alt="coding"
+                width="370"
+                height="294"
+              />
+              <p class="direction-descr">Десктопні додатки</p>
             </li>
             <li class="item">
-                <img
-                  class="direction-img"
-                  src="./images/img-2.jpg"
-                  alt="development"
-                  width="370"
-                  height="294"
-                />
-                  <p class="direction-descr">Мобільні додатки</p>
+              <img
+                class="direction-img"
+                src="./images/img-2.jpg"
+                alt="development"
+                width="370"
+                height="294"
+              />
+              <p class="direction-descr">Мобільні додатки</p>
             </li>
             <li class="item">
-                <img
-                  class="direction-img"
-                  src="./images/img-3.jpg"
-                  alt="visualization"
-                  width="370"
-                  height="294"
-                />
-                  <p class="direction-descr">Дизайнерські рішення</p>
+              <img
+                class="direction-img"
+                src="./images/img-3.jpg"
+                alt="visualization"
+                width="370"
+                height="294"
+              />
+              <p class="direction-descr">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
