@@ -67,7 +67,7 @@
           <div class="modal">
             <button type="button" class="modal-btn" data-modal-close></button>
             <form class="form">
-              <h4 class="form-title">Залиште свої дані, ми вам передзвонимо</h4>
+              <b class="form-title">Залиште свої дані, ми вам передзвонимо</b>
               <div class="form-group">
                 <label for="name">Ім'я</label>
                 <input type="text" name="name" id="name" />
@@ -90,7 +90,12 @@
                 ></textarea>
               </div>
               <div class="form-group">
-                <input type="checkbox" name="license" id="license" class="input-license" />
+                <input
+                  type="checkbox"
+                  name="license"
+                  id="license"
+                  class="input-license"
+                />
                 <label for="license" class="label-license"
                   >Погоджуюся з розсилкою та приймаю Умови договору</label
                 >
@@ -468,6 +473,25 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <div class="footer-group">
+            <b class="mail-title">Підпишіться на розсилку</b>
+            <ul class="mail-list">
+              <li class="mail-item">
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="E-mail"
+                  class="input-mail"
+                />
+              </li>
+              <li class="mail-item">
+                <button type="submit" class="footer-btn">Підписатися</button>
+              </li>
+            </ul>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>

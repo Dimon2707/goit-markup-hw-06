@@ -328,8 +328,6 @@ img {
     color: #212121;
     margin-top: 40px;
     margin-bottom: 12px;
-
-
 }
 
 .form-group {
@@ -339,6 +337,8 @@ img {
 
     padding-left: 40px;
     padding-right: 40px; 
+
+    margin-top: 12px;
 }
 
 .form-group label {
@@ -389,6 +389,7 @@ img {
     letter-spacing: 0.06em;
     text-align: center;
     color: #fff;
+    border: none;
 
     border-radius: 4px;
     width: 200px;
@@ -877,6 +878,67 @@ address {
 .footer-linkedin:hover,
 .footer-linkedin:focus {
     background-color: var(--accent-color);
+}
+
+.footer-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+}
+
+.mail-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.mail-list {
+    display: flex;
+}
+
+.input-mail {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: rgba(33, 150, 243, 0);
+
+    padding: 15px 16px;
+
+    margin-right: 12px;
+}
+
+.mail-item ::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.footer-btn {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #2196f3;
 }
 
 /* portfolio.html */
