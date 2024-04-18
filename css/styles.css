@@ -331,6 +331,7 @@ img {
 }
 
 .form-group {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -351,10 +352,24 @@ img {
 }
 
 .form-group input {
+    position: relative;
+
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     width: 448px;
     height: 40px;
+
+padding: 12px 42px;
+}
+
+.form-group:focus {
+    color: var(--accent-color);
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 52px;
 }
 
 .form-group textarea {
