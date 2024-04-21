@@ -396,7 +396,16 @@ img {
     color: rgba(117, 117, 117, 0.5);
 }
 
+.label-license {
+margin-bottom: 30px;
+}
+
 .input-license {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: absolute;
     margin-bottom: 30px;
 }
 
@@ -930,6 +939,7 @@ address {
     background: rgba(33, 150, 243, 0);
     
     font: inherit;
+    color: var(--white-color);
     padding: 15px 16px;
 
     margin-right: 12px;
